@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+  background-image: url("/img.webp");
+  background-size: cover;
+  background-position: center;
+}
