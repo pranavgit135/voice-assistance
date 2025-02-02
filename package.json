@@ -7,12 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+    
   },
-  {
-  
-  "homepage": "https://username.github.io/voice-assistance"
-},
+   "homepage": "https://username.github.io/voice-assistance"
+ 
+
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
