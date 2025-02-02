@@ -9,6 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  {
+  
+  "homepage": "https://username.github.io/voice-assistance"
+},
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
